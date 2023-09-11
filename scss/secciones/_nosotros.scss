@@ -10,14 +10,16 @@ section{
         justify-content: flex-start;
         font-size: x-large;
         padding: 15px;
-        color: #1F9640;
+        color: #B08968;
+        text-decoration: underline;
+        font-size: xx-large;
     }
     .descripcion {
         font-family: 'Quattrocento', serif;
         font-size: larger;
         display: flex;
         text-align: justify;
-        background-color: #1F9640;
+        background-color: #B08968;
         padding-left: 50px;
         padding-right: 50px;
         padding-top: 30px;
@@ -31,7 +33,7 @@ section{
 
 h2{
     padding: 5px;
-    background-color: #1F9640;
+    background-color: #B08968;
     display: flex;
     align-items: center;
     justify-content: center;
