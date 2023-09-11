@@ -59,17 +59,11 @@ section .galeria img {
   width: 100vw;
 }
 
-.destacados div {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 400px);
-}
 .destacados img {
-  border: #B08968 solid 5px;
-  padding: 5px;
-  width: 250px;
-  height: 250px;
-  margin: auto;
+  width: 500px;
+  margin: 20px;
+  margin-left: 180px;
+  margin-bottom: 100px;
 }
 .destacados .destacado1 {
   margin-top: 80px;
@@ -91,34 +85,6 @@ section .galeria img {
   padding-bottom: 25px;
   font-size: x-large;
   margin-top: 100px;
-}
-
-.suscripcion {
-  background-image: url(/recursos/fondo-quienes-somos.png);
-  width: 100vw;
-  height: 300px;
-  border: #FAEDCD solid 5px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.suscripcion p {
-  font-size: xx-large;
-  color: rgb(0, 0, 0);
-}
-.suscripcion button {
-  width: 200px;
-  padding: 5px;
-  color: #FAEDCD;
-  background-color: #B08968;
-  border: #B08968;
-}
-.suscripcion input {
-  width: 500px;
-  border: #B08968 solid 2px;
-  margin-bottom: 15px;
 }
 
 @media (max-width: 500px) {
@@ -318,10 +284,6 @@ h2 {
 .grilla-profes img {
   width: 300px;
   margin: auto;
-  transition: all 0.2s;
-}
-.grilla-profes img:hover {
-  transform: scale(1.1);
 }
 .grilla-profes .carta-titulo {
   font-family: Libre Basrkeville;
@@ -505,4 +467,4 @@ h2 {
   margin-top: 30px;
   font-family: "Quattrocento", serif;
   font-size: larger;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=main.css.map */

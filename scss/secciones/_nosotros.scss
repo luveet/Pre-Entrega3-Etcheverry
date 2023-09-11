@@ -52,6 +52,10 @@ h2{
      img{
          width: 300px;
          margin: auto;
+         transition: all .2s;
+         &:hover{
+            transform: scale(1.1);
+        }
      }
      .carta-titulo{
          font-family: Libre Basrkeville;

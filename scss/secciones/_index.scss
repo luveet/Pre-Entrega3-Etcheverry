@@ -57,12 +57,17 @@ section .galeria img {
 }
 
 .destacados{
-    img {
-        width: 400px;
-        height: 400px;
-        margin: 20px;
-        margin-left: 180px;
-        margin-bottom: 100px;
+    div{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 400px);
+    }
+    img{
+        border: #B08968 solid 5px;
+        padding: 5px;
+        width: 250px;
+        height: 250px;
+        margin: auto;
     }
     .destacado1 {
         margin-top: 80px;
@@ -86,7 +91,33 @@ section .galeria img {
         margin-top: 100px;
     }
 } 
-
+.suscripcion{
+    background-image: url(/recursos/fondo-quienes-somos.png);
+    width: 100vw;
+    height: 300px;
+    border: #FAEDCD solid 5px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p{
+        font-size: xx-large;
+        color: rgb(0, 0, 0);
+    }
+    button{
+        width: 200px;
+        padding: 5px;
+        color: #FAEDCD;
+        background-color: #B08968;
+        border: #B08968;
+    }
+    input{
+            width: 500px;
+            border: #B08968 solid 2px;
+            margin-bottom: 15px;
+        }
+    }
 
 
 
